@@ -6,12 +6,11 @@ import "fmt"
 Crea constantes CON TIPO y SIN TIPO. Imprime el valor de las mismas.
 */
 
-const (
-	a     = 42
-	b int = 43
-)
+var a = 42
 
 func main() {
-	fmt.Printf("%v\t%T\t%v\t%T", a, a, b, b)
+	fmt.Printf("%d\t%b\t%#x\n", a, a, a)
+	b := a << 1
+	fmt.Printf("%d\t%b\t%#x\t", b, b, b)
 
 }
