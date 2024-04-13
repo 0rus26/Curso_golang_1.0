@@ -17,11 +17,15 @@ U+0041 'A'
 */
 func main() {
 
-	for i := 65; i < 91; i++ {
-		fmt.Printf("%v--->\n", i)
-		for x := 0; x < 3; x++ {
-			fmt.Printf("\t%#U\n", i)
+	born_year := 1995
+	i := born_year
+	now := 2024
+	for {
+		if i > now {
+			break
 		}
-	}
 
+		fmt.Printf("Año->(%v)\n", i)
+		i++
+	}
 }
