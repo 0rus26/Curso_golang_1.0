@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /*
-Crea un programa que muestre el “if statement” en acción.
+Usando el ejercicio anterior, crea un programa que use “else if” y “else”.
 */
 func main() {
 	i := 102
