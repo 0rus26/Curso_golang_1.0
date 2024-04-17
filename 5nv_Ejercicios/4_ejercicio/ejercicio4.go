@@ -34,4 +34,13 @@ func main() {
 	fmt.Println(structura)
 	fmt.Println(structura.amigos)
 	fmt.Println(structura.bebidas)
+
+	for k, v := range structura.amigos {
+		fmt.Println(k, v)
+	}
+
+	for i, v := range structura.bebidas {
+		fmt.Println(i, v)
+	}
+
 }
