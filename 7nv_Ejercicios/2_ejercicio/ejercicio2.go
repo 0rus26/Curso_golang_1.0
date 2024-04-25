@@ -23,8 +23,10 @@ import "fmt"
 
 */
 
-//este ejercicio sirve para entender que go otorga un espacio en memoria diferente para hacer el cambio de p.nombre, por lo tanto si queremos que p1
-//sea afectadi por la función cambiame debemos apuntar a la dirección en memoria de ese  dato persona.
+//este ejercicio sirve para entender que go otorga un espacio en memoria diferente  al del main() ,para hacer el cambio de p.nombre en el espacio de
+// ejecucion de la funcion, // si queremos que p1 sea afectado por la función cambiame() debemos apuntar a la dirección
+//en memoria de ese dato de tipo persona.
+
 func main() {
 
 	p1 := persona{
