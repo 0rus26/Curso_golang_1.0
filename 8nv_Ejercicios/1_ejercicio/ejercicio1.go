@@ -18,6 +18,7 @@ type usuario struct {
 }
 
 func main() {
+
 	u1 := usuario{
 		Nombre: "Eduar",
 		Edad:   32,
